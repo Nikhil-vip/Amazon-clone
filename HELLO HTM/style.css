@@ -1,0 +1,812 @@
+* {
+    margin: 0px;
+    border: border-box;
+    font-family: Arial;
+    padding: 0px;
+}
+body{
+    background-color:gainsboro;
+}
+/********navbar that black line************/
+.navbarpanel{
+height: 60px;
+background-color: black;
+display: flex;
+justify-content: space-around;
+}
+/*************amazonlogo*************/
+.amazonlogo{
+    height: 50px;
+    width: 100px;
+    background-image: url(lolop.webp);
+    background-size: cover; 
+}
+.amazonlogo:hover{
+    border: 2px solid white;
+}
+/*****************locationbox*************/
+.locationbox{
+    height:50px;
+    width:80px;
+    color: white;    
+}
+.locationbox:hover{
+    border: 2px solid white;
+}
+.address{
+    font-size: small;
+    color: gray;
+}
+.address2{
+    display: flex;
+}
+.locationdot{
+  display: flex;
+}
+/********search select and allllll.....*************/
+.searchandall{
+    display: flex;
+    border: 0.005px;  
+}
+.search{
+    border-radius: 10%;
+}
+select{
+height: 55.2px;
+width: 50px;
+border-radius: 10%;
+}
+select:hover{
+background-color: aliceblue;
+color: black;
+}
+input{
+    height: 50px;
+    width: 620px;
+}
+button{
+    background-color: orange;
+    height: 55.8px;
+    width: 50px;
+    border-radius: 10%;
+}
+#mag{
+    transform: scale(2);
+}
+button:hover{
+border: 2px solid white;
+background-color:lightsalmon ;
+}
+/*************language select.....***********/
+.lalo{
+    height: 100px;
+    width: 100px;
+    display: flex;
+}
+#globe{
+    color: aliceblue;
+    transform: scale(2);
+    position: relative;
+    top: 18px;
+    left: 15px;
+}
+#globe:hover{
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#langselect{
+    background-color: black;
+    color: white;
+    position:relative;
+    height: 20px;
+    left: 30px;
+    top: 18px;
+    border: none;
+}
+#langselect:hover{
+    border: 2px solid white;
+}
+/*********login stuffffff...****************/
+.login{
+    color: aliceblue;
+padding-top: 10px;
+}
+.login:hover{
+    border: 2px solid white;
+}
+/*********returns and orderss s s...**/
+.returnand{
+color: aliceblue;
+height: 50px;
+width: 50px;
+padding-left: 20px;
+}
+.returnand:hover{
+    border: 2px solid white;
+}
+/*********cartttttttt...**/
+.cart{
+    height: 60px;
+    width: 50px;
+    color: aliceblue;
+    padding-right: 50px;
+    
+}
+#cart1{
+    transform: scale(2);
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+.cart:hover{
+    border: 2px solid white;
+}
+/*****************graybar*************/
+.graybar{
+    height:40px;
+    background-color:gray;
+    display: flex;
+}
+#barbox{
+    height: 37px;
+    width: 40px;
+}
+#barbox:hover{
+    border: 2px solid white;
+}
+#all{
+    padding-left:10px;
+    font-size: x-large;
+    align-items: center;
+}
+#bars{
+    align-items: center;
+    padding-left: 10px;
+}
+.morebars{
+    padding-top: 10px;
+    transform: scale(1.3);
+}
+.todaysdeal{
+padding: 8px 9px;
+}
+.todaysdeal:hover{
+    border: 2px solid white;
+}
+.customer{
+    padding: 8px 9px;
+}
+.customer:hover{
+    border: 2px solid white;
+}
+.registry{
+    padding: 8px 9px;
+}
+.registry:hover{
+    border: 2px solid white;
+}
+.gift{
+    padding: 8px 9px;
+}
+.gift:hover{
+    border: 2px solid white;
+}
+.sell{
+    padding: 8px 9px;
+}
+.sell:hover{
+    border: 2px solid white;
+}
+/*****************background image*************/
+.backgroundimg{
+    height: 600px;
+    width: 1540px;
+    background-image: url(banner.jpg);
+    background-size:cover;
+}
+.whitebar{
+    height: 40px;
+    width: 1490px;
+    background-color:white;
+    position: relative;
+    top: 300px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+}
+#p01{
+    align-items: center;
+    padding-top: 5px;
+}
+/*****************item boxex or product boxes1*************/
+.allitemboxes1{
+display: flex;
+position: absolute;
+top: 200px;
+justify-content:space-around;
+height: 1000px;
+width: 1500px;
+}
+/*******for box1*********/
+.bigbox1{
+    height: 500px;
+    width: 350px;
+    background-color:#ffffff;
+}
+.bigbox1:hover{
+  border: 5px solid red;
+}
+.itembox1{
+    height: 150px;
+    width: 150px;
+background-image: url(pc.webp);
+background-size: cover;
+}
+#p1{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#row1{
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px;
+}
+#row2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.itembox2{
+    height: 150px;
+    width: 150px;
+background-image: url(mouse.webp);
+background-size: cover;
+}
+.itembox3{
+    height: 150px;
+    width: 150px;
+background-image: url(head\ phones.webp);
+background-size: cover;
+}
+.itembox4{
+    height: 150px;
+    width: 150px;
+background-image: url(laptop.jpg);
+background-size: cover;
+padding-right: 15px;
+}
+/*******for box2*********/
+.bigbox2{
+    height: 500px;
+    width: 350px;
+    background-color:#ffffff;
+}
+.bigbox2:hover{
+    border: 5px solid red;
+}
+#p2{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.itembox11{
+    height: 150px;
+    width: 150px;
+background-image: url(home\ item1.jpg);
+background-size: contain;
+}
+#row11{
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px;
+}
+#row22{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.itembox22{
+    height: 150px;
+    width: 150px;
+background-image: url(home\ item2.jpg);
+background-size: contain;
+}
+.itembox33{
+    height: 150px;
+    width: 150px;
+background-image: url(home\ item3.jpg);
+background-size: contain;
+}
+.itembox44{
+    height: 150px;
+    width: 150px;
+background-image: url(home\ item4.jpg);
+background-size: contain;
+padding-right: 15px;
+}
+/*******for box3*********/
+.bigbox3{
+    height: 500px;
+    width: 350px;
+    background-color:#ffffff;
+}
+.bigbox3:hover{
+    border: 5px solid red;
+}
+#p3{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#row111{
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px;
+}
+#row222{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.itembox111{
+    height: 150px;
+    width: 150px;
+background-image: url(fasion1.webp);
+background-size: cover;
+}
+
+.itembox222{
+    height: 150px;
+    width: 150px;
+background-image: url(fasion2.jpg);
+background-size: cover;
+}
+.itembox333{
+    height: 150px;
+    width: 150px;
+background-image: url(fasion3.jpg);
+background-size: cover;
+}
+.itembox444{
+    height: 150px;
+    width: 150px;
+background-image: url(fasion4.webp);
+background-size: cover;
+padding-right: 15px;
+}
+/*******for box4*********/
+.bigbox4{
+    height: 500px;
+    width: 350px;
+    background-color:#ffffff;
+}
+.bigbox4:hover{
+    border: 5px solid red;
+}
+#p4{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#row1111{
+    display: flex;
+    justify-content: space-between;
+    padding-top:50px;
+}
+#row2222{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.itembox1111{
+    height: 150px;
+    width: 150px;
+background-image: url(gym1.jpg);
+background-size: cover;
+}
+.itembox2222{
+    height: 150px;
+    width: 150px;
+background-image: url(plant1.webp);
+background-size: cover;
+}
+.itembox3333{
+    height: 150px;
+    width: 150px;
+background-image: url(gym3.jpeg);
+background-size: cover;
+}
+.itembox4444{
+    height: 150px;
+    width: 150px;
+background-image: url(gym4.jpg);
+background-size: cover;
+padding-right: 15px;
+}
+/***************productbanner01*****************/
+.space1{
+    height: 450px;
+}
+.bannerofproduct{
+    height: 250px;
+    background-color: #ffffff;
+}
+.bannerofproductitem{
+    display: flex;
+    justify-content: space-evenly;
+}
+#p112{
+    font-weight: bolder;
+    font-size: xx-large;    
+}
+.watch1{
+    height: 200px;
+    width: 145px;
+    background-image: url(watch.jpg);
+    block-size:contain;
+}
+.watch2{
+    height: 200px;
+    width: 112px;
+    background-image: url(watch2.jpg);
+    block-size:contain;
+}
+.metal1{
+    height: 200px;
+    width: 194px;
+    background-image: url(metal1.jpg);
+    block-size:contain;
+}
+.metal2{
+    height: 180px;
+    width: 270.6px;  
+    background-image: url(metal2.jpg);
+    block-size:contain;
+}
+.book1{
+    height: 200px;
+    width: 100px; 
+    background-image: url(bottle1.jpg);
+    block-size:contain;
+}
+.book2{
+    height: 200px;
+    width: 180px;  
+    background-image: url(book2.jpg);
+    block-size:contain;
+}
+/*****************item boxex or product boxes01*************/
+.allitemboxes2{
+    height: 1000px;
+    width: 1500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+/*******for box01*********/
+.bigbox01{
+    height: 400px;
+    width: 350px;
+    background-color: #ffffff;
+}
+#p001{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.row01{
+    display:flex;
+    justify-content: space-between;
+}
+.itembox01{
+height: 102px;
+width: 163px;
+background-image: url(School1.jpg);
+background-size: cover;
+}
+.itembox02{
+    height: 102px;
+    width: 163px;
+    background-image: url(School2.jpg);
+    background-size: cover;
+}
+.row02{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.itembox03{
+    height: 102px;
+    width: 163px;
+    background-image: url(school3.jpg);
+    background-size: cover;
+}
+.itembox04{
+    height: 102px;
+    width: 163px;
+    background-image: url(School4.jpg);
+    background-size: cover;
+    }
+/*******for box02*********/
+.bigbox02{
+    height: 400px;
+    width: 350px;
+    background-color: #ffffff;
+}
+#p0012{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.row011{
+    display:flex;
+    justify-content: space-between;
+}
+.itembox011{
+height: 102px;
+width: 163px;
+background-image: url(bag1.jpg);
+background-size: cover;
+}
+.itembox022{
+    height: 102px;
+    width: 163px;
+    background-image: url(bag2.jpg);
+    background-size: cover;
+}
+.row022{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.itembox033{
+    height: 102px;
+    width: 163px;
+    background-image: url(bag3.jpg);
+    background-size: cover;
+}
+.itembox044{
+    height: 102px;
+    width: 163px;
+    background-image: url(bag4.jpg);
+    background-size: cover;
+    }
+/*******for box03*********/
+.bigbox03{
+    height: 400px;
+    width: 350px;
+    background-color: #ffffff;
+}
+#p0013{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.row031{
+    display:flex;
+    justify-content: space-between;
+}
+.itembox031{
+height: 102px;
+width: 163px;
+background-image: url(beauty1.jpg);
+background-size: cover;
+}
+.itembox032{
+    height: 102px;
+    width: 163px;
+    background-image: url(beauty2.jpg);
+    background-size: cover;
+}
+.row032{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.itembox0033{
+    height: 102px;
+    width: 163px;
+    background-image: url(beauty3.jpg);
+    background-size: cover;
+}
+.itembox034{
+    height: 102px;
+    width: 163px;
+    background-image: url(bag4.jpg);
+    background-size: cover;
+    }
+/*******for box04*********/
+.bigbox04{
+    height: 400px;
+    width: 350px;
+    background-color: #ffffff;
+}
+#p0014{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.row041{
+    display:flex;
+    justify-content: space-between;
+}
+.itembox041{
+height: 102px;
+width: 163px;
+background-image: url(tech1.jpg);
+background-size: cover;
+}
+.itembox042{
+    height: 102px;
+    width: 163px;
+    background-image: url(tech2.jpg);
+    background-size: cover;
+}
+.row042{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.itembox043{
+    height: 102px;
+    width: 163px;
+    background-image: url(tech3.jpg);
+    background-size: cover;
+}
+.itembox044{
+    height: 102px;
+    width: 163px;
+    background-image: url(tech4.jpg);
+    background-size: cover;
+}
+/***************productbanner02*****************/
+.space2{
+    height: 450px; 
+    position: relative;
+    bottom: 550px;
+}
+.bannerofproduct2{
+    height: 250px;
+    background-color: #ffffff;
+}
+.bannerofproductitem2{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px white;
+}
+#p212{
+    font-weight: bolder;
+    font-size: xx-large;    
+}
+.apple1{
+    height: 200px;
+    width: 171px;
+    background-image: url(apple1.jpg);
+    block-size:contain;
+}
+.apple2{
+    height: 200px;
+    width: 171px;
+    background-image: url(apple2.jpg);
+    block-size:contain;
+}
+.apple3{
+    height: 200px;
+    width: 194px;
+    background-image: url(apple3.jpg);
+    block-size:contain;
+}
+.apple4{
+    height: 180px;
+    width: 270.6px;  
+    background-image: url(apple4.jpg);
+    block-size:cover;
+}
+.apple5{
+    height: 200px;
+    width: 100px; 
+    background-image: url(apple5.jpg);
+    block-size:contain;
+}
+.apple6{
+    height: 200px;
+    width: 180px;  
+    background-image: url(apple6.jpg);
+    block-size:contain;
+}
+/***************productbanner03*****************/
+.space3{
+    height: 450px; 
+    position: relative;
+    margin-top: 50px;
+}
+.bannerofproduct3{
+    height: 250px;
+    background-color: #ffffff;
+}
+.bannerofproductitem3{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px white;
+}
+#p312{
+    font-weight: bolder;
+    font-size: xx-large;    
+}
+.game1{
+    height: 200px;
+    width: 124px;
+    background-image: url(game1.jpg);
+    block-size:contain;
+}
+.game2{
+    height: 200px;
+    width: 128px;
+    background-image: url(game2.jpg);
+    block-size:contain;
+}
+.game3{
+    height: 200px;
+    width: 160px;
+    background-image: url(game3.jpg);
+    block-size:contain;
+}
+.game4{
+    height: 180px;
+    width: 139px;  
+    background-image: url(game4.jpg);
+    block-size:cover;
+}
+.game5{
+    height: 200px;
+    width: 124px; 
+    background-image: url(game5.jpg);
+    block-size:contain;
+}
+.game6{
+    height: 195px;
+    width: 290px;  
+    background-image: url(game6.jpg);
+    block-size:contain;
+}
+/***************footer*****************/
+footer {
+    background-color: #232F3E;
+    color: white;
+    padding: 40px 20px;
+    height: 500px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-links h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 5px 0;
+}
+
+.footer-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
